@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const Footer = () => {
@@ -53,13 +54,13 @@ const Footer = () => {
           </div>
           <p className="mt-6 text-sm text-slate-500 sm:mt-0">
             Copyright{' '}
-            <a
+            <Link
               className="text-gray-400 underline"
               target="_blank"
-              href="www.github.com/a7mdmo74"
+              href="https://github.com/a7mdmo74"
             >
               @a7mdmo74
-            </a>{' '}
+            </Link>{' '}
             All rights reserved.
           </p>
         </div>

@@ -12,7 +12,7 @@ const Price = () => {
             We aim for long-term and fair relationships.
           </p>
           <div className="max-w-7xl mx-auto rounded-lg shadow-lg mt-16">
-            <div className="grid grid-cols-1 md:grid-cols-5">
+            <div className="grid grid-cols-1 md:grid-cols-5 my-4">
               <div className="md:col-span-4 flex flex-col items-start justify-start flex-1 bg-white px-6 py-8 lg:p-12 rounded-tl-lg rounded-bl-lg">
                 <h2 className="text-2xl font-bold text-gray-900 sm:text-3xl sm:tracking-tight">
                   Project-based pricing.
@@ -57,7 +57,7 @@ const Price = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col items-center space-y-6 justify-center bg-[#FAFAFA] rounded-tr-lg rounded-br-lg">
+              <div className="flex flex-col items-center space-y-6 justify-center bg-[#FAFAFA] rounded-tr-lg rounded-br-lg mb-6 md:mb-0">
                 <p className="mt-6 text-lg text-black font-semibold">
                   Projects start from
                 </p>
