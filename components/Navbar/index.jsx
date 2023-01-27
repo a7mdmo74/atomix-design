@@ -76,13 +76,13 @@ const Navbar = ({ isActive, handleNavbar }) => {
             Services
           </a>
           <a
-            href="/price"
+            href="#price"
             className="inline-block rounded-lg py-1 px-2 text-sm text-slate-800 hover:bg-slate-900 hover:text-slate-100"
           >
             Pricing
           </a>
           <a
-            href="/works"
+            href="#works"
             className="inline-block rounded-lg py-1 px-2 text-sm text-slate-800 hover:bg-slate-900 hover:text-slate-100"
           >
             How it works

@@ -1,7 +1,15 @@
 'use client';
 import { useState } from 'react';
 import Navbar from '@/components/Navbar';
-import { Hero, Services } from '@/containers';
+import {
+  Hero,
+  Price,
+  Projects,
+  Services,
+  Works,
+  Accordion,
+} from '@/containers';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   const [isActive, setIsActive] = useState(true);
@@ -18,7 +26,12 @@ export default function Home() {
       </header>
       <main>
         <Services />
+        <Projects />
+        <Price />
+        <Works />
+        <Accordion />
       </main>
+      <Footer />
     </div>
   );
 }
