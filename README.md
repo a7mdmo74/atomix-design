@@ -21,29 +21,29 @@ View the project on GitHub: [Atomic Design GitHub Repository](https://github.com
 
 ## Installation
 
-```
 1. Clone the repository:
-```
-
-git clone <https://github.com/a7mdmo74/atomix-design.git>
 
 ```
+   git clone <https://github.com/a7mdmo74/atomix-design.git>
+```
+
 2. Navigate to the project directory:
-```
-
-cd atomix-design
 
 ```
+   cd atomix-design
+```
+
 3. Install dependencies:
+
+```
+   npm install
 ```
 
-npm install
-
-````
 4. Run the development server:
-```
 
-npm run dev
+```
+   npm run dev
+```
 
 The landing page will be accessible at `http://localhost:3000`.
 
@@ -60,4 +60,3 @@ Contributions are welcomed! Feel free to submit issues or pull requests for bug 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-````
